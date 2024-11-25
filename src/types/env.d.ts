@@ -27,9 +27,9 @@ declare global {
       DB_DIALECT_TEST: 'mysql' | 'postgres' | 'mssql'
 
       JWT_SECRET: string
-      JWT_SECRET_REFRESH: string
-      JWT_SECRET_EXPIRATION_SECS: string
-      JWT_SECRET_REFRESH_EXPIRATION_SECS: string
+      JWT_REFRESH: string
+      JWT_ACCESS_EXPIRATION_TIME: string
+      JWT_REFRESH_REFRESH_EXPIRATION_TIME: string
 
     }
   }
